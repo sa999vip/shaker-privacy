@@ -1,326 +1,658 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shaker App | Privacy Policy & Terms of Use</title>
+  <meta name="description" content="سياسة الخصوصية وشروط الاستخدام الرسمية لتطبيق Shaker App باللغتين العربية والإنجليزية." />
+  <style>
+    :root {
+      --bg: #f4f7f8;
+      --surface: #ffffff;
+      --surface-soft: #f8fbfb;
+      --text: #162122;
+      --muted: #5f6b6d;
+      --primary: #0f766e;
+      --primary-dark: #115e59;
+      --primary-soft: #dff3f1;
+      --border: #d9e5e4;
+      --shadow: 0 10px 30px rgba(15, 118, 110, 0.08);
+      --radius: 20px;
+      --max: 1050px;
+    }
 
-<meta charset="UTF-8">
+    * { box-sizing: border-box; }
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    html { scroll-behavior: smooth; }
 
-<title>Shaker App Privacy Policy</title>
+    body {
+      margin: 0;
+      font-family: Tahoma, Arial, sans-serif;
+      background:
+        radial-gradient(circle at top right, #ecf8f7 0%, transparent 35%),
+        linear-gradient(180deg, #f7fbfb 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.95;
+    }
 
-<style>
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
 
-body{
-font-family:Arial;
-max-width:1000px;
-margin:auto;
-padding:40px 20px;
-line-height:1.9;
-background:#f6f9fa;
-color:#0f172a;
-}
+    a:hover { text-decoration: underline; }
 
-.card{
+    .container {
+      width: min(var(--max), calc(100% - 32px));
+      margin: 0 auto;
+    }
 
-background:white;
+    .hero {
+      padding: 40px 0 22px;
+    }
 
-padding:30px;
+    .hero-card {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      color: #fff;
+      border-radius: 28px;
+      padding: 34px 26px;
+      box-shadow: 0 16px 40px rgba(15, 118, 110, 0.18);
+      position: relative;
+      overflow: hidden;
+    }
 
-border-radius:18px;
+    .hero-card::before,
+    .hero-card::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+    }
 
-box-shadow:0 10px 30px rgba(0,0,0,0.07);
+    .hero-card::before {
+      width: 260px;
+      height: 260px;
+      top: -120px;
+      left: -80px;
+    }
 
-margin-bottom:20px;
+    .hero-card::after {
+      width: 180px;
+      height: 180px;
+      bottom: -80px;
+      right: -40px;
+    }
 
-}
+    .badge {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
 
-h1{
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(28px, 4vw, 40px);
+      line-height: 1.3;
+    }
 
-color:#0f766e;
+    .hero p {
+      margin: 0;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.93);
+      max-width: 820px;
+    }
 
-}
+    .meta {
+      margin-top: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
 
-h2{
+    .meta span {
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      padding: 8px 12px;
+      border-radius: 12px;
+      font-size: 14px;
+    }
 
-color:#115e59;
+    .nav-wrap {
+      padding: 10px 0 22px;
+    }
 
-margin-top:25px;
+    .nav-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 16px;
+    }
 
-}
+    .nav-title {
+      margin: 0 0 12px;
+      color: var(--primary);
+      font-size: 18px;
+    }
 
-.lang{
+    .quick-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
 
-background:#0f766e;
+    .quick-links a {
+      background: var(--surface-soft);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 10px 14px;
+      border-radius: 12px;
+      font-size: 14px;
+      transition: 0.2s ease;
+    }
 
-color:white;
+    .quick-links a:hover {
+      background: var(--primary-soft);
+      border-color: #b8dfda;
+      text-decoration: none;
+    }
 
-padding:10px;
+    .content { padding-bottom: 42px; }
 
-border-radius:10px;
+    .lang-chip {
+      display: inline-block;
+      margin: 8px 0 16px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: var(--primary-soft);
+      color: var(--primary-dark);
+      font-weight: bold;
+      font-size: 14px;
+      border: 1px solid #cde8e5;
+    }
 
-margin-top:40px;
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px 22px;
+      margin-bottom: 18px;
+    }
 
-}
+    .section h2 {
+      margin: 0 0 14px;
+      color: var(--primary);
+      font-size: 24px;
+      line-height: 1.4;
+    }
 
-ul{
+    .section p {
+      margin: 0 0 10px;
+      color: var(--text);
+      font-size: 16px;
+    }
 
-padding-right:20px;
+    .section p:last-child,
+    .section ul:last-child {
+      margin-bottom: 0;
+    }
 
-}
+    .section ul {
+      margin: 10px 0 0;
+      padding: 0 20px 0 0;
+    }
 
-</style>
+    .section li {
+      margin-bottom: 8px;
+      color: var(--text);
+    }
 
+    .note {
+      background: #f6fcfb;
+      border: 1px solid #d7efec;
+      border-right: 5px solid var(--primary);
+      padding: 14px 16px;
+      border-radius: 14px;
+      margin-top: 14px;
+      color: #184846;
+    }
+
+    .contact-box {
+      display: grid;
+      gap: 12px;
+      background: var(--surface-soft);
+      border: 1px dashed #b9d7d3;
+      border-radius: 16px;
+      padding: 16px;
+      margin-top: 12px;
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(to left, transparent, #cfe3e0, transparent);
+      margin: 30px 0 24px;
+    }
+
+    .footer {
+      padding: 0 0 42px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .en {
+      direction: ltr;
+      text-align: left;
+      font-family: Arial, sans-serif;
+    }
+
+    .en .section ul {
+      padding: 0 0 0 20px;
+    }
+
+    @media (max-width: 640px) {
+      .hero { padding-top: 22px; }
+      .hero-card { padding: 26px 18px; border-radius: 22px; }
+      .section { padding: 20px 16px; }
+      .section h2 { font-size: 21px; }
+      .quick-links { flex-direction: column; }
+      .quick-links a { width: 100%; }
+    }
+  </style>
 </head>
-
 <body>
 
-<div class="card">
-
-<h1>سياسة الخصوصية – Shaker App</h1>
-
-<p>آخر تحديث: March 2026</p>
-
-<h2>مقدمة</h2>
-
-<p>
-
-تطبيق Shaker هو تطبيق إنتاجية إسلامي يقدم التقويم، مواقيت الصلاة، القرآن، الأذكار، الطقس، الأخبار، المهام، الملاحظات وأدوات التحويل.
-
-نحن نحترم خصوصية المستخدم ونلتزم بحماية بياناته.
-
-</p>
-
-<h2>البيانات التي نجمعها</h2>
-
-<ul>
-
-<li>البريد الإلكتروني عند إنشاء الحساب</li>
-
-<li>المهام والملاحظات والتذكيرات</li>
-
-<li>بيانات الاشتراك</li>
-
-<li>بيانات الموقع عند استخدام ميزات تعتمد على الموقع</li>
-
-</ul>
-
-<h2>بيانات الموقع</h2>
-
-<p>
-
-يستخدم التطبيق الموقع فقط لأجل:
-
-</p>
-
-<ul>
-
-<li>مواقيت الصلاة</li>
-
-<li>الطقس</li>
-
-<li>القبلة</li>
-
-<li>تنبيهات المهام المرتبطة بالموقع</li>
-
-</ul>
-
-<p>
-
-لا نقوم بتتبع المستخدم أو بيع بيانات الموقع.
-
-</p>
-
-<h2>الإعلانات</h2>
-
-<p>
-
-قد يستخدم التطبيق Google AdMob لعرض الإعلانات.
-
-قد تجمع Google بيانات غير شخصية لتحسين الإعلانات.
-
-يمكنك قراءة سياسة Google:
-
-</p>
-
-<p>
-
-https://policies.google.com/privacy
-
-</p>
-
-<h2>الخدمات الخارجية</h2>
-
-<p>
-
-قد يستخدم التطبيق:
-
-</p>
-
-<ul>
-
-<li>Firebase Authentication</li>
-
-<li>Cloud Firestore</li>
-
-<li>Google services</li>
-
-</ul>
-
-<h2>حذف الحساب</h2>
-
-<p>
-
-يمكن للمستخدم حذف حسابه من داخل التطبيق.
-
-وعند حذف الحساب يتم حذف بياناته المرتبطة بالخدمة.
-
-</p>
-
-<h2>الأمان</h2>
-
-<p>
-
-نستخدم خدمات Google الآمنة لحماية البيانات.
-
-</p>
-
-<h2>التواصل</h2>
-
-<p>
-
-Email:
-
-shaker4app@gmail.com
-
-</p>
-
-</div>
-
-<div class="lang">
-
-English Version
-
-</div>
-
-<div class="card" dir="ltr">
-
-<h1>Privacy Policy – Shaker App</h1>
-
-<p>Last updated March 2026</p>
-
-<h2>Introduction</h2>
-
-<p>
-
-Shaker App is an Islamic productivity application providing calendar, prayer times, Quran, tasks, notes, weather, news and tools.
-
-We respect user privacy.
-
-</p>
-
-<h2>Information we collect</h2>
-
-<ul>
-
-<li>Email address</li>
-
-<li>Tasks and notes</li>
-
-<li>Subscription status</li>
-
-<li>Location data when user enables location features</li>
-
-</ul>
-
-<h2>Location Data</h2>
-
-<p>
-
-Location is used only for:
-
-</p>
-
-<ul>
-
-<li>Prayer times</li>
-
-<li>Weather</li>
-
-<li>Qibla direction</li>
-
-<li>Location based reminders</li>
-
-</ul>
-
-<p>
-
-We do NOT track users.
-
-We do NOT sell location data.
-
-</p>
-
-<h2>Ads</h2>
-
-<p>
-
-The app may use Google AdMob.
-
-Google may collect non personal data for ads.
-
-Google privacy policy:
-
-</p>
-
-<p>
-
-https://policies.google.com/privacy
-
-</p>
-
-<h2>Third Party Services</h2>
-
-<ul>
-
-<li>Firebase Authentication</li>
-
-<li>Cloud Firestore</li>
-
-<li>Google Services</li>
-
-</ul>
-
-<h2>Account deletion</h2>
-
-<p>
-
-Users can delete their account anytime.
-
-Associated data will be removed.
-
-</p>
-
-<h2>Security</h2>
-
-<p>
-
-We use secure Google infrastructure.
-
-</p>
-
-<h2>Contact</h2>
-
-<p>
-
-Email:
-
-shaker4app@gmail.com
-
-</p>
-
-</div>
+  <header class="hero">
+    <div class="container">
+      <div class="hero-card">
+        <div class="badge">Shaker App</div>
+        <h1>سياسة الخصوصية وشروط الاستخدام<br>Privacy Policy & Terms of Use</h1>
+        <p>
+          هذه الصفحة توضح بشكل رسمي ونهائي كيفية تعامل تطبيق شاكر مع البيانات والصلاحيات
+          والحسابات والموقع والإعلانات والاشتراكات، باللغتين العربية والإنجليزية.
+        </p>
+        <div class="meta">
+          <span>آخر تحديث: مارس 2026</span>
+          <span>Last updated: March 2026</span>
+          <span>Google Play Ready</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="nav-wrap">
+    <div class="container">
+      <div class="nav-card">
+        <h2 class="nav-title">الوصول السريع</h2>
+        <div class="quick-links">
+          <a href="#ar-policy">العربية</a>
+          <a href="#en-policy">English</a>
+          <a href="#contact-ar">التواصل</a>
+          <a href="#contact-en">Contact</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="content">
+    <div class="container">
+
+      <div id="ar-policy" class="lang-chip">النسخة العربية</div>
+
+      <section class="section">
+        <h2>1) مقدمة</h2>
+        <p>
+          تطبيق <strong>Shaker App</strong> هو تطبيق إنتاجية إسلامي شامل يوفر التقويم،
+          مواقيت الصلاة، القرآن، الأذكار، الطقس، الأخبار، المهام، الملاحظات، وأدوات التحويل.
+          نحن نحترم خصوصية المستخدم ونتعامل مع البيانات بالحد اللازم لتشغيل وظائف التطبيق.
+        </p>
+        <p>
+          باستخدامك للتطبيق، فإنك توافق على سياسة الخصوصية وشروط الاستخدام الموضحة في هذه الصفحة.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>2) البيانات التي قد نجمعها</h2>
+        <ul>
+          <li>البريد الإلكتروني عند إنشاء الحساب أو تسجيل الدخول.</li>
+          <li>المهام والملاحظات والتذكيرات والإعدادات التي يدخلها المستخدم.</li>
+          <li>بيانات العضوية مثل نوع الخطة أو حالة التجربة المجانية أو الاشتراك.</li>
+          <li>بيانات الموقع عند استخدام الميزات المعتمدة على الموقع.</li>
+          <li>بيانات فنية أساسية لازمة لتحسين الأداء والاستقرار ومعالجة الأعطال.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>3) التخزين المحلي والسحابي</h2>
+        <ul>
+          <li>قد يتم حفظ بعض البيانات محليًا على جهاز المستخدم.</li>
+          <li>عند استخدام الحساب، قد يتم تخزين بعض البيانات سحابيًا لأجل المزامنة بين الأجهزة.</li>
+          <li>يتم هذا التخزين فقط لتشغيل وظائف التطبيق وتوفير تجربة استخدام مستقرة.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>4) بيانات الموقع</h2>
+        <p>قد يستخدم التطبيق الموقع لأجل:</p>
+        <ul>
+          <li>مواقيت الصلاة.</li>
+          <li>اتجاه القبلة.</li>
+          <li>الطقس حسب المدينة أو الموقع.</li>
+          <li>التنبيهات المرتبطة بالموقع داخل المهام.</li>
+        </ul>
+        <p>
+          قد يتمكن المستخدم من حفظ موقع مرتبط بمهمة معينة للتنبيه عند الوصول إليه أو المرور به،
+          ويكون ذلك بناءً على اختياره الصريح داخل التطبيق.
+        </p>
+        <div class="note">
+          لا يتم استخدام الموقع للتتبع التجاري، ولا لبيع البيانات، ولا لإنشاء ملف إعلاني شخصي.
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>5) استخدام الموقع في الخلفية</h2>
+        <p>
+          إذا استخدم التطبيق صلاحية الموقع في الخلفية، فذلك يكون فقط لتنفيذ التنبيهات الجغرافية
+          للمهام التي أنشأها المستخدم بنفسه.
+        </p>
+        <p>
+          يمكن للمستخدم تعطيل هذه الصلاحية من إعدادات الجهاز أو حذف المواقع المحفوظة داخل التطبيق.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>6) كيف نستخدم البيانات</h2>
+        <ul>
+          <li>تشغيل ميزات التطبيق الأساسية.</li>
+          <li>تقديم المزامنة بين الأجهزة عند تسجيل الدخول.</li>
+          <li>إدارة العضوية والتجربة المجانية والاشتراكات المدفوعة.</li>
+          <li>تحسين الأداء والاستقرار ومعالجة الأعطال الفنية.</li>
+          <li>الرد على استفسارات الدعم الفني عند الحاجة.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>7) الإعلانات</h2>
+        <p>
+          قد يستخدم التطبيق خدمات إعلانية مثل Google AdMob لعرض الإعلانات في النسخة المجانية.
+        </p>
+        <p>
+          قد تقوم هذه الخدمات بجمع بيانات تقنية أو غير شخصية أو معرّفات إعلانية وفق سياساتها
+          الخاصة لتقديم الإعلانات وقياس الأداء.
+        </p>
+        <p>
+          لمزيد من التفاصيل حول كيفية تعامل Google مع البيانات:
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>8) الخدمات الخارجية</h2>
+        <p>
+          قد يستخدم التطبيق خدمات خارجية موثوقة مثل:
+        </p>
+        <ul>
+          <li>Firebase Authentication</li>
+          <li>Cloud Firestore</li>
+          <li>Google services</li>
+          <li>AdMob</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>9) حماية البيانات</h2>
+        <p>
+          نسعى لتطبيق ممارسات مناسبة لحماية بيانات المستخدمين، بما في ذلك استخدام
+          اتصالات آمنة وخدمات موثوقة والبنية السحابية المناسبة لتشغيل التطبيق.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>10) حذف الحساب والبيانات</h2>
+        <p>
+          يمكن للمستخدم حذف حسابه من داخل التطبيق وفق الآلية المتاحة. وعند حذف الحساب،
+          يتم حذف بيانات الحساب المرتبطة به وفق البنية المعتمدة داخل التطبيق والخدمة المستخدمة.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>11) الصلاحيات</h2>
+        <p>قد يطلب التطبيق بعض الصلاحيات عند الحاجة، مثل:</p>
+        <ul>
+          <li>الإنترنت.</li>
+          <li>الموقع.</li>
+          <li>الإشعارات.</li>
+        </ul>
+        <p>
+          تستخدم هذه الصلاحيات فقط ضمن الوظائف التي يفعّلها المستخدم أو يحتاجها التطبيق لتشغيل الميزة المطلوبة.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>12) الأطفال</h2>
+        <p>
+          التطبيق غير موجه للأطفال دون السن الذي تتطلب القوانين المحلية موافقة ولي الأمر فيه،
+          ما لم يتم استخدامه بإشراف مناسب ووفق الأنظمة المعمول بها.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>13) تحديثات السياسة</h2>
+        <p>
+          قد نقوم بتحديث سياسة الخصوصية أو شروط الاستخدام من وقت لآخر،
+          ويعد استمرار استخدام التطبيق بعد نشر التحديث موافقة على النسخة الأحدث.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>14) شروط الاستخدام</h2>
+        <ul>
+          <li>يجب استخدام التطبيق بطريقة قانونية ومشروعة.</li>
+          <li>يمنع العبث بالتطبيق أو محاولة اختراقه أو إساءة استخدام خدماته.</li>
+          <li>المستخدم مسؤول عن الحفاظ على سرية بيانات تسجيل الدخول الخاصة به.</li>
+          <li>قد تتغير بعض الميزات أو الاشتراكات أو الأسعار أو تفاصيل التشغيل في الإصدارات المستقبلية.</li>
+          <li>يُقدم التطبيق كما هو، مع بذل جهد معقول لتحسين الجودة والأداء والاستقرار.</li>
+        </ul>
+      </section>
+
+      <section class="section" id="contact-ar">
+        <h2>15) التواصل والاستفسارات</h2>
+        <p>
+          لأي استفسار متعلق بالخصوصية أو البيانات أو الحساب أو طلبات الدعم ذات الصلة:
+        </p>
+        <div class="contact-box">
+          <strong>البريد الإلكتروني:</strong>
+          <a href="mailto:shaker4app@gmail.com">shaker4app@gmail.com</a>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <div id="en-policy" class="lang-chip en">English Version</div>
+
+      <div class="en">
+
+        <section class="section">
+          <h2>1) Introduction</h2>
+          <p>
+            <strong>Shaker App</strong> is an Islamic productivity application that provides
+            calendar features, prayer times, Quran, adhkar, weather, news, tasks, notes,
+            and conversion tools. We respect user privacy and handle data only to the extent
+            necessary to operate the app and its features.
+          </p>
+          <p>
+            By using the app, you agree to this Privacy Policy and Terms of Use.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>2) Information We May Collect</h2>
+          <ul>
+            <li>Email address when creating an account or signing in.</li>
+            <li>Tasks, notes, reminders, and settings entered by the user.</li>
+            <li>Membership data such as subscription type, trial status, or premium status.</li>
+            <li>Location data when using location-based features.</li>
+            <li>Basic technical data needed for performance, stability, and crash handling.</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>3) Local and Cloud Storage</h2>
+          <ul>
+            <li>Some data may be stored locally on the user’s device.</li>
+            <li>When using an account, some data may be stored securely in the cloud for synchronization.</li>
+            <li>This storage is used only to operate app features and provide a stable user experience.</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>4) Location Data</h2>
+          <p>The app may use location for:</p>
+          <ul>
+            <li>Prayer times.</li>
+            <li>Qibla direction.</li>
+            <li>Weather based on city or current location.</li>
+            <li>Location-based task reminders.</li>
+          </ul>
+          <p>
+            Users may save a location linked to a task in order to receive a reminder
+            when arriving at or passing through that location, based on their explicit choice.
+          </p>
+          <div class="note">
+            Location is not used for commercial tracking, data sale, or personal advertising profiles.
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>5) Background Location</h2>
+          <p>
+            If the app uses background location permission, it is used only to enable
+            geofenced reminders for tasks created by the user.
+          </p>
+          <p>
+            Users can disable this permission from device settings or remove saved locations inside the app.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>6) How We Use Data</h2>
+          <ul>
+            <li>To operate the core features of the app.</li>
+            <li>To provide synchronization across devices when signed in.</li>
+            <li>To manage memberships, free trials, and paid subscriptions.</li>
+            <li>To improve performance, stability, and resolve technical issues.</li>
+            <li>To respond to support requests when needed.</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>7) Ads</h2>
+          <p>
+            The app may use advertising services such as Google AdMob to display ads in the free version.
+          </p>
+          <p>
+            These services may collect technical information, non-personal data, or advertising identifiers
+            according to their own policies in order to serve ads and measure performance.
+          </p>
+          <p>
+            For more details about how Google handles data:
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>8) Third-Party Services</h2>
+          <p>The app may use trusted third-party services such as:</p>
+          <ul>
+            <li>Firebase Authentication</li>
+            <li>Cloud Firestore</li>
+            <li>Google services</li>
+            <li>AdMob</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>9) Data Security</h2>
+          <p>
+            We aim to apply appropriate measures to protect user data, including secure connections,
+            trusted services, and suitable cloud infrastructure for app operation.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>10) Account and Data Deletion</h2>
+          <p>
+            Users may delete their account from within the app using the available mechanism.
+            When an account is deleted, associated account data is removed according to the app’s implemented structure and services.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>11) Permissions</h2>
+          <p>The app may request permissions when needed, such as:</p>
+          <ul>
+            <li>Internet</li>
+            <li>Location</li>
+            <li>Notifications</li>
+          </ul>
+          <p>
+            These permissions are used only for the features explicitly enabled by the user
+            or required for the requested functionality.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>12) Children</h2>
+          <p>
+            The app is not directed to children below the age requiring parental consent under applicable local laws,
+            unless used under appropriate supervision and according to applicable regulations.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>13) Policy Updates</h2>
+          <p>
+            We may update this Privacy Policy and Terms of Use from time to time.
+            Continued use of the app after updates are published constitutes acceptance of the latest version.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>14) Terms of Use</h2>
+          <ul>
+            <li>The app must be used lawfully and appropriately.</li>
+            <li>Attempting to misuse, tamper with, or compromise the app is prohibited.</li>
+            <li>Users are responsible for maintaining the confidentiality of their account credentials.</li>
+            <li>Features, subscriptions, prices, and operational details may change in future releases.</li>
+            <li>The app is provided as is, while reasonable efforts are made to improve quality, performance, and stability.</li>
+          </ul>
+        </section>
+
+        <section class="section" id="contact-en">
+          <h2>15) Contact</h2>
+          <p>
+            For privacy, data, account, or related support inquiries, please contact:
+          </p>
+          <div class="contact-box">
+            <strong>Email:</strong>
+            <a href="mailto:shaker4app@gmail.com">shaker4app@gmail.com</a>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © 2026 Shaker App. All rights reserved.
+    </div>
+  </footer>
 
 </body>
-
 </html>

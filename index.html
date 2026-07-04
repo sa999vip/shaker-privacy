@@ -211,6 +211,29 @@
       font-weight: 700;
     }
 
+    .screenshots {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 8px 2px 20px;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.screenshots img {
+  flex: 0 0 auto;
+  width: min(280px, 78vw);
+  max-height: 560px;
+  object-fit: cover;
+  border-radius: 28px;
+  border: 1px solid var(--border);
+  box-shadow: 0 18px 45px rgba(15, 118, 110, 0.16);
+  background: #fff;
+  scroll-snap-align: start;
+}
+
     @media (max-width: 900px) {
       .features {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -310,6 +333,24 @@
         <h3>أدوات متنوعة</h3>
         <p>محولات التاريخ، العملات، الوحدات، وأدوات مساعدة للحياة اليومية.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-title">
+      <h2>لقطات من تطبيق شاكر</h2>
+      <p>استعرض واجهات التطبيق وأهم أدواته اليومية.</p>
+    </div>
+
+    <div class="screenshots">
+      <img src="assets/home.webp" alt="الصفحة الرئيسية في تطبيق شاكر" loading="lazy">
+      <img src="assets/calendar.webp" alt="تقويم شاكر الهجري والميلادي" loading="lazy">
+      <img src="assets/widget.webp" alt="ويدجت شاكر على الشاشة الرئيسية" loading="lazy">
+      <img src="assets/zodiac.webp" alt="دليل الأبراج في تطبيق شاكر" loading="lazy">
+      <img src="assets/noaa.webp" alt="موسوعة الأنواء والمنازل" loading="lazy">
+      <img src="assets/card.webp" alt="بطاقة اليوم في تطبيق شاكر" loading="lazy">
     </div>
   </div>
 </section>

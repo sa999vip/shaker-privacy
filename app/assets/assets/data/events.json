@@ -1,0 +1,27 @@
+{
+  "national_events": [
+    {
+      "id": 1,
+      "name": "اليوم الوطني السعودي",
+      "date_hijri": "1445/02/22",
+      "date_gregorian": "2023/09/23",
+      "description": "ذكرى توحيد المملكة العربية السعودية"
+    }
+  ],
+  "religious_events": [
+    {
+      "id": 101,
+      "name": "رمضان",
+      "date_hijri": "1445/09/01",
+      "description": "شهر الصيام"
+    }
+  ],
+  "salary_dates": [
+    {
+      "id": 201,
+      "sector": "الرواتب الحكومية",
+      "payment_day": 27,
+      "description": "راتب نهاية الشهر"
+    }
+  ]
+}

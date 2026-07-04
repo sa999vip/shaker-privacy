@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <!-- الخلفية الدائرية -->
+  <circle cx="50" cy="50" r="40" fill="#E1F5FE" />
+  
+  <!-- أشعة الشمس المحيطة -->
+  <g stroke="#2C3E50" stroke-width="2" stroke-linecap="round">
+    <line x1="50" y1="20" x2="50" y2="25" />
+    <line x1="50" y1="65" x2="50" y2="70" />
+    <line x1="27" y1="45" x2="32" y2="45" />
+    <line x1="68" y1="45" x2="73" y2="45" />
+    <line x1="34" y1="29" x2="38" y2="33" />
+    <line x1="66" y1="61" x2="62" y2="57" />
+    <line x1="66" y1="29" x2="62" y2="33" />
+    <line x1="34" y1="61" x2="38" y2="57" />
+  </g>
+  
+  <!-- قرص الشمس الرئيسي -->
+  <circle cx="50" cy="45" r="13" fill="#FFF176" stroke="#2C3E50" stroke-width="2.5" />
+  
+  <!-- السحابة الأمامية المتداخلة بنعومة -->
+  <path d="M42,58 C42,53 47,50 52,50 C55,47 62,47 65,51 C69,51 72,54 72,58 C72,62 68,64 64,64 L46,64 C43,64 42,61 42,58 Z" fill="#FFFFFF" stroke="#2C3E50" stroke-width="2" stroke-linejoin="round" />
+</svg>

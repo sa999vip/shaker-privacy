@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <!-- الخلفية الدائرية -->
+  <circle cx="50" cy="50" r="40" fill="#E0F2F1" />
+  
+  <!-- قاعدة التقويم (الخلفية البيضاء للورقة) -->
+  <rect x="32" y="30" width="36" height="40" rx="4" fill="#FFFFFF" stroke="#2C3E50" stroke-width="2.5" />
+  
+  <!-- الجزء العلوي الأحمر للتقويم (مكان التثبيت) -->
+  <path d="M 32,34 L 32,32 C 32,30 34,28 36,28 L 64,28 C 66,28 68,30 68,32 L 68,34 Z" fill="#E74C3C" stroke="#2C3E50" stroke-width="2.5" stroke-linejoin="round" />
+  
+  <!-- حلقات التثبيت العلوية -->
+  <circle cx="42" cy="28" r="2" fill="#2C3E50" />
+  <circle cx="58" cy="28" r="2" fill="#2C3E50" />
+  
+  <!-- رمز نجمة الأنواء/المواسم في المنتصف -->
+  <path d="M 50,40 L 52,47 L 59,47 L 54,51 L 56,58 L 50,54 L 44,58 L 46,51 L 41,47 L 48,47 Z" fill="#F1C40F" stroke="#2C3E50" stroke-width="1.5" stroke-linejoin="round" />
+  
+  <!-- خط سفلي يرمز للتواريخ -->
+  <line x1="40" y1="64" x2="60" y2="64" stroke="#BDC3C7" stroke-width="2" stroke-linecap="round" />
+</svg>

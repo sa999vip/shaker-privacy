@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <!-- الخلفية الدائرية -->
+  <circle cx="50" cy="50" r="40" fill="#E8F4F8" />
+  
+  <!-- خرزات المسبحة العلوية موزع ديرياً -->
+  <g fill="#7FB3D5" stroke="#2C3E50" stroke-width="2">
+    <circle cx="50" cy="25" r="4" />
+    <circle cx="62" cy="28" r="4" />
+    <circle cx="71" cy="37" r="4" />
+    <circle cx="74" cy="50" r="4" />
+    <circle cx="71" cy="63" r="4" />
+    <circle cx="62" cy="72" r="4" />
+    <circle cx="50" cy="75" r="4" />
+    <circle cx="38" cy="72" r="4" />
+    <circle cx="29" cy="63" r="4" />
+    <circle cx="26" cy="50" r="4" />
+    <circle cx="29" cy="37" r="4" />
+    <circle cx="38" cy="28" r="4" />
+  </g>
+  
+  <!-- الفاصل السفلي للمسبحة (الشاهد والمأذنة) -->
+  <path d="M 50 75 L 50 85" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round" />
+  <polygon points="47,85 53,85 50,92" fill="#E67E22" stroke="#2C3E50" stroke-width="2" stroke-linejoin="round" />
+</svg>

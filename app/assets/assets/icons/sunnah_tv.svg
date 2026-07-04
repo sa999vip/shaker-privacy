@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <!-- الخلفية الدائرية -->
+  <circle cx="50" cy="50" r="40" fill="#E8F8F5" />
+  
+  <!-- هيكل الشاشة التلفزيونية الخارجي -->
+  <rect x="28" y="32" width="44" height="30" rx="3" fill="#FFFFFF" stroke="#2C3E50" stroke-width="2.5" />
+  
+  <!-- حامل الشاشة السفلي -->
+  <polygon points="44,62 56,62 58,69 42,69" fill="#BDC3C7" stroke="#2C3E50" stroke-width="2" stroke-linejoin="round" />
+  
+  <!-- رمز القبة الخضراء للمسجد النبوي داخل الشاشة -->
+  <path d="M 42,54 C 42,46 50,46 50,46 C 50,46 58,46 58,54 Z" fill="#2ECC71" stroke="#2C3E50" stroke-width="2" stroke-linejoin="round" />
+  <line x1="50" y1="46" x2="50" y2="43" stroke="#2C3E50" stroke-width="1.5" />
+  <line x1="38" y1="54" x2="62" y2="54" stroke="#2C3E50" stroke-width="1.5" />
+  
+  <!-- رمز البث المباشر المصغر بالزاوية -->
+  <circle cx="34" cy="38" r="1.5" fill="#E74C3C" />
+</svg>

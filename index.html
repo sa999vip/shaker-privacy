@@ -3,106 +3,244 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>تطبيق شاكر | رفيقك اليومي الشامل</title>
-  <meta name="description" content="تطبيق شاكر يجمع التقويم الهجري والميلادي، مواقيت الصلاة، القرآن، الأذكار، الطقس، الأنواء، المهام والملاحظات في تطبيق واحد." />
+  <meta name="description" content="تطبيق شاكر يجمع التقويم الهجري والميلادي، مواقيت الصلاة، القرآن الكريم، الأذكار، الطقس، الأنواء، المهام والملاحظات في تطبيق واحد." />
 
   <style>
+    :root {
+      --primary: #0f766e;
+      --primary-dark: #115e59;
+      --bg: #f6f8fb;
+      --surface: #ffffff;
+      --text: #172026;
+      --muted: #64748b;
+      --border: #dbe7e6;
+      --shadow: 0 18px 45px rgba(15, 118, 110, 0.10);
+      --radius: 22px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
       font-family: Tahoma, Arial, sans-serif;
-      background: #f5f7fa;
-      color: #1c1f26;
+      background: var(--bg);
+      color: var(--text);
       line-height: 1.9;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
     }
 
     .container {
-      width: min(1100px, calc(100% - 32px));
-      margin: auto;
+      width: min(1120px, calc(100% - 32px));
+      margin-inline: auto;
     }
 
     header {
-      background: linear-gradient(135deg, #0f766e, #115e59);
-      color: white;
-      padding: 60px 0;
+      color: #fff;
+      padding: 72px 0 58px;
       text-align: center;
+      background:
+        radial-gradient(circle at top right, rgba(255,255,255,0.18), transparent 34%),
+        linear-gradient(135deg, var(--primary), var(--primary-dark));
+    }
+
+    .logo {
+      width: 104px;
+      height: 104px;
+      border-radius: 26px;
+      margin-bottom: 16px;
+      box-shadow: 0 16px 36px rgba(0,0,0,0.22);
+      background: rgba(255,255,255,0.16);
     }
 
     header h1 {
       margin: 0 0 12px;
-      font-size: 38px;
+      font-size: clamp(32px, 5vw, 48px);
+      line-height: 1.25;
     }
 
     header p {
-      margin: 0 auto 24px;
-      max-width: 720px;
-      font-size: 18px;
+      margin: 0 auto 28px;
+      max-width: 760px;
+      font-size: clamp(16px, 2.5vw, 20px);
+      color: rgba(255,255,255,0.92);
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
     }
 
     .buttons a {
-      display: inline-block;
-      margin: 6px;
-      padding: 12px 22px;
-      border-radius: 12px;
-      background: white;
-      color: #0f766e;
-      font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 11px 20px;
+      border-radius: 14px;
+      background: #fff;
+      color: var(--primary);
+      font-weight: 700;
       text-decoration: none;
+      box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+      white-space: nowrap;
     }
 
     .buttons a.secondary {
       background: rgba(255,255,255,0.14);
-      color: white;
+      color: #fff;
       border: 1px solid rgba(255,255,255,0.35);
+      box-shadow: none;
     }
 
     section {
-      padding: 42px 0;
+      padding: 52px 0;
     }
 
-    h2 {
+    .section-title {
       text-align: center;
-      color: #0f766e;
-      margin-bottom: 26px;
+      margin-bottom: 28px;
+    }
+
+    .section-title h2 {
+      color: var(--primary-dark);
+      margin: 0 0 8px;
+      font-size: clamp(25px, 4vw, 34px);
+    }
+
+    .section-title p {
+      color: var(--muted);
+      margin: 0 auto;
+      max-width: 680px;
     }
 
     .features {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 18px;
     }
 
     .card {
-      background: white;
-      border: 1px solid #d9e5e4;
-      border-radius: 18px;
-      padding: 22px;
-      box-shadow: 0 10px 25px rgba(15,118,110,0.08);
+      min-width: 0;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
     }
 
     .card h3 {
-      margin-top: 0;
-      color: #115e59;
+      margin: 0 0 8px;
+      color: var(--primary-dark);
+      font-size: 20px;
+    }
+
+    .card p {
+      margin: 0;
+      color: #475569;
+    }
+
+    .icon-strip {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      overflow-y: hidden;
+      padding: 6px 2px 16px;
+      scrollbar-width: thin;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .icon-item {
+      flex: 0 0 auto;
+      min-width: 138px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 10px 22px rgba(15,118,110,0.07);
+      color: var(--primary-dark);
+      font-weight: 700;
     }
 
     .blog {
-      background: white;
-      border-radius: 22px;
-      padding: 28px;
+      background: var(--surface);
+      border-radius: 28px;
+      padding: 34px;
       text-align: center;
-      border: 1px solid #d9e5e4;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+
+    .blog h2 {
+      color: var(--primary-dark);
+      margin: 0 0 10px;
+    }
+
+    .blog p {
+      color: var(--muted);
+      margin: 0 0 20px;
     }
 
     footer {
       text-align: center;
-      padding: 28px 0;
-      color: #667;
+      padding: 30px 0;
+      color: var(--muted);
       font-size: 14px;
+      border-top: 1px solid var(--border);
+      background: #fff;
     }
 
     footer a {
-      color: #0f766e;
+      color: var(--primary);
       text-decoration: none;
       margin: 0 8px;
+      font-weight: 700;
+    }
+
+    @media (max-width: 900px) {
+      .features {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 620px) {
+      header {
+        padding: 48px 0 42px;
+      }
+
+      section {
+        padding: 40px 0;
+      }
+
+      .features {
+        grid-template-columns: 1fr;
+      }
+
+      .buttons {
+        flex-direction: column;
+      }
+
+      .buttons a {
+        width: 100%;
+      }
+
+      .blog {
+        padding: 26px 18px;
+      }
     }
   </style>
 </head>
@@ -111,7 +249,7 @@
 
 <header>
   <div class="container">
-    <img src="assets/logo.png" alt="شعار تطبيق شاكر" style="width:96px;height:96px;border-radius:22px;margin-bottom:14px;">
+    <img class="logo" src="assets/logo.png" alt="شعار تطبيق شاكر">
     <h1>تطبيق شاكر</h1>
     <p>رفيقك اليومي الشامل للتقويم، مواقيت الصلاة، القرآن، الأذكار، الطقس، الأنواء، المهام والملاحظات.</p>
 
@@ -125,7 +263,22 @@
 
 <section>
   <div class="container">
-    <h2>مميزات تطبيق شاكر</h2>
+    <div class="section-title">
+      <h2>مميزات تطبيق شاكر</h2>
+      <p>أدوات يومية منظمة في واجهة واحدة تناسب الجوال والكمبيوتر.</p>
+    </div>
+
+    <div class="icon-strip" aria-label="أقسام تطبيق شاكر">
+      <div class="icon-item">التقويم</div>
+      <div class="icon-item">الصلاة</div>
+      <div class="icon-item">القرآن</div>
+      <div class="icon-item">الأذكار</div>
+      <div class="icon-item">الطقس</div>
+      <div class="icon-item">الأنواء</div>
+      <div class="icon-item">المهام</div>
+      <div class="icon-item">الملاحظات</div>
+      <div class="icon-item">الأدوات</div>
+    </div>
 
     <div class="features">
       <div class="card">
@@ -182,6 +335,6 @@
     <a href="mailto:shaker4app@gmail.com">تواصل معنا</a>
   </div>
 </footer>
-<!-- redeploy app folder -->
+
 </body>
 </html>

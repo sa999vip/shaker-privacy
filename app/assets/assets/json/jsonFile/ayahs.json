@@ -1,0 +1,1843 @@
+[
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 21,
+    "order": 1
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 2,
+    "order": 2
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الطلاق",
+    "ayah": 7,
+    "order": 3
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الشرح",
+    "ayah": 5,
+    "order": 4,
+    "endAyah": 6
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "التوبة",
+    "ayah": 10,
+    "order": 5
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 42,
+    "order": 6
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الضحى",
+    "ayah": 5,
+    "order": 7
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "القصص",
+    "ayah": 7,
+    "order": 8
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "غافر",
+    "ayah": 4,
+    "order": 9
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأنبياء",
+    "ayah": 8,
+    "order": 10
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 45,
+    "order": 11
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "المائدة",
+    "ayah": 1,
+    "order": 12
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الطلاق",
+    "ayah": 7,
+    "order": 13
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الروم",
+    "ayah": 7,
+    "order": 14
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الجمعة",
+    "ayah": 1,
+    "order": 15
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "هود",
+    "ayah": 23,
+    "order": 16
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 4,
+    "order": 17,
+    "endAyah": 5
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النحل",
+    "ayah": 9,
+    "order": 18
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "لقمان",
+    "ayah": 14,
+    "order": 19
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأحزاب",
+    "ayah": 3,
+    "order": 20
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النور",
+    "ayah": 1,
+    "order": 21
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الذاريات",
+    "ayah": 22,
+    "order": 22
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "هود",
+    "ayah": 114,
+    "order": 23
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "المائدة",
+    "ayah": 88,
+    "order": 24
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الفاتحة",
+    "ayah": 6,
+    "order": 25,
+    "endAyah": 7
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 4,
+    "order": 26
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 25,
+    "order": 27
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 48,
+    "order": 28
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 110,
+    "order": 29
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 117,
+    "order": 30
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 126,
+    "order": 31
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 132,
+    "order": 32,
+    "endAyah": 133
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 138,
+    "order": 33
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 152,
+    "order": 34
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 155,
+    "order": 35,
+    "endAyah": 158
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 164,
+    "order": 36
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "البقرة",
+    "ayah": 168,
+    "order": 37,
+    "endAyah": 169
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "آل عمران",
+    "ayah": 5,
+    "order": 38,
+    "endAyah": 6
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "آل عمران",
+    "ayah": 7,
+    "order": 39
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "آل عمران",
+    "ayah": 8,
+    "order": 40,
+    "endAyah": 9
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "آل عمران",
+    "ayah": 18,
+    "order": 41
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "آل عمران",
+    "ayah": 30,
+    "order": 42
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "آل عمران",
+    "ayah": 85,
+    "order": 43
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "آل عمران",
+    "ayah": 92,
+    "order": 44
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "آل عمران",
+    "ayah": 103,
+    "order": 45
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "آل عمران",
+    "ayah": 133,
+    "order": 46
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "آل عمران",
+    "ayah": 190,
+    "order": 47,
+    "endAyah": 191
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النساء",
+    "ayah": 1,
+    "order": 48
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النساء",
+    "ayah": 85,
+    "order": 49
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النساء",
+    "ayah": 108,
+    "order": 50
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النساء",
+    "ayah": 114,
+    "order": 51
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النساء",
+    "ayah": 116,
+    "order": 52
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النساء",
+    "ayah": 131,
+    "order": 53
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النساء",
+    "ayah": 135,
+    "order": 54
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "المائدة",
+    "ayah": 105,
+    "order": 55
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأنعام",
+    "ayah": 17,
+    "order": 56
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأنعام",
+    "ayah": 68,
+    "order": 57
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأنعام",
+    "ayah": 92,
+    "order": 58
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأنعام",
+    "ayah": 141,
+    "order": 59
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأعراف",
+    "ayah": 26,
+    "order": 60
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأعراف",
+    "ayah": 44,
+    "order": 61
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأعراف",
+    "ayah": 57,
+    "order": 62
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأنفال",
+    "ayah": 60,
+    "order": 63,
+    "endAyah": 61
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "التوبة",
+    "ayah": 18,
+    "order": 64
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "التوبة",
+    "ayah": 32,
+    "order": 65
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "التوبة",
+    "ayah": 72,
+    "order": 66
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "التوبة",
+    "ayah": 109,
+    "order": 67
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "التوبة",
+    "ayah": 128,
+    "order": 68
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "يونس",
+    "ayah": 15,
+    "order": 69
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "يونس",
+    "ayah": 25,
+    "order": 70
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "يونس",
+    "ayah": 26,
+    "order": 71
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "يونس",
+    "ayah": 107,
+    "order": 72
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "هود",
+    "ayah": 3,
+    "order": 73
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "هود",
+    "ayah": 6,
+    "order": 74
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "يوسف",
+    "ayah": 108,
+    "order": 75
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الرعد",
+    "ayah": 12,
+    "order": 76,
+    "endAyah": 13
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الرعد",
+    "ayah": 23,
+    "order": 77,
+    "endAyah": 24
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "ابراهيم",
+    "ayah": 24,
+    "order": 78,
+    "endAyah": 25
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "ابراهيم",
+    "ayah": 34,
+    "order": 79
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "ابراهيم",
+    "ayah": 40,
+    "order": 80
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحجر",
+    "ayah": 88,
+    "order": 81
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النحل",
+    "ayah": 18,
+    "order": 82
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النحل",
+    "ayah": 30,
+    "order": 83,
+    "endAyah": 31
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النحل",
+    "ayah": 64,
+    "order": 84
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النحل",
+    "ayah": 77,
+    "order": 85
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النحل",
+    "ayah": 90,
+    "order": 86
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النحل",
+    "ayah": 94,
+    "order": 87
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النحل",
+    "ayah": 97,
+    "order": 88
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النحل",
+    "ayah": 125,
+    "order": 89
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الإسراء",
+    "ayah": 9,
+    "order": 90
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الإسراء",
+    "ayah": 13,
+    "order": 91,
+    "endAyah": 14
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الإسراء",
+    "ayah": 23,
+    "order": 92,
+    "endAyah": 24
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الإسراء",
+    "ayah": 26,
+    "order": 93
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الإسراء",
+    "ayah": 34,
+    "order": 94
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الإسراء",
+    "ayah": 35,
+    "order": 95
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الإسراء",
+    "ayah": 36,
+    "order": 96
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الإسراء",
+    "ayah": 37,
+    "order": 97
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الإسراء",
+    "ayah": 53,
+    "order": 98
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الإسراء",
+    "ayah": 70,
+    "order": 99
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الإسراء",
+    "ayah": 78,
+    "order": 100
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الإسراء",
+    "ayah": 82,
+    "order": 101
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الإسراء",
+    "ayah": 89,
+    "order": 102
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الإسراء",
+    "ayah": 110,
+    "order": 103
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الكهف",
+    "ayah": 1,
+    "order": 104,
+    "endAyah": 2
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الكهف",
+    "ayah": 7,
+    "order": 105
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الكهف",
+    "ayah": 23,
+    "order": 106,
+    "endAyah": 24
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الكهف",
+    "ayah": 28,
+    "order": 107
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الكهف",
+    "ayah": 49,
+    "order": 108
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الكهف",
+    "ayah": 107,
+    "order": 109,
+    "endAyah": 108
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الكهف",
+    "ayah": 109,
+    "order": 110
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الكهف",
+    "ayah": 110,
+    "order": 111
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "مريم",
+    "ayah": 71,
+    "order": 112,
+    "endAyah": 72
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "طه",
+    "ayah": 114,
+    "order": 113
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "طه",
+    "ayah": 130,
+    "order": 114
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "طه",
+    "ayah": 131,
+    "order": 115
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأنبياء",
+    "ayah": 7,
+    "order": 116
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأنبياء",
+    "ayah": 87,
+    "order": 117,
+    "endAyah": 88
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأنبياء",
+    "ayah": 107,
+    "order": 118
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحج",
+    "ayah": 67,
+    "order": 119
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "المؤمنون",
+    "ayah": 1,
+    "order": 120,
+    "endAyah": 2
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "المؤمنون",
+    "ayah": 96,
+    "order": 121,
+    "endAyah": 98
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النور",
+    "ayah": 21,
+    "order": 122
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النور",
+    "ayah": 30,
+    "order": 123
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النور",
+    "ayah": 35,
+    "order": 124
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النور",
+    "ayah": 37,
+    "order": 125,
+    "endAyah": 38
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الفرقان",
+    "ayah": 58,
+    "order": 126
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الشعراء",
+    "ayah": 78,
+    "order": 127,
+    "endAyah": 82
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النمل",
+    "ayah": 62,
+    "order": 128
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النمل",
+    "ayah": 91,
+    "order": 129,
+    "endAyah": 92
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "القصص",
+    "ayah": 77,
+    "order": 130
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "القصص",
+    "ayah": 88,
+    "order": 131
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "العنكبوت",
+    "ayah": 20,
+    "order": 132
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "العنكبوت",
+    "ayah": 45,
+    "order": 133
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "العنكبوت",
+    "ayah": 46,
+    "order": 134
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "العنكبوت",
+    "ayah": 62,
+    "order": 135
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الروم",
+    "ayah": 24,
+    "order": 136
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الروم",
+    "ayah": 39,
+    "order": 137
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "لقمان",
+    "ayah": 18,
+    "order": 138,
+    "endAyah": 19
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "لقمان",
+    "ayah": 12,
+    "order": 139
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "لقمان",
+    "ayah": 20,
+    "order": 140
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "لقمان",
+    "ayah": 22,
+    "order": 141
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "لقمان",
+    "ayah": 33,
+    "order": 142
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "لقمان",
+    "ayah": 34,
+    "order": 143
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "السجدة",
+    "ayah": 5,
+    "order": 144,
+    "endAyah": 6
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأحزاب",
+    "ayah": 36,
+    "order": 145
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأحزاب",
+    "ayah": 41,
+    "order": 146,
+    "endAyah": 43
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأحزاب",
+    "ayah": 45,
+    "order": 147,
+    "endAyah": 47
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأحزاب",
+    "ayah": 56,
+    "order": 148
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأحزاب",
+    "ayah": 72,
+    "order": 149
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "سبأ",
+    "ayah": 1,
+    "order": 150
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "سبأ",
+    "ayah": 37,
+    "order": 151
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "سبأ",
+    "ayah": 39,
+    "order": 152
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "فاطر",
+    "ayah": 2,
+    "order": 153
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "فاطر",
+    "ayah": 10,
+    "order": 154
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "فاطر",
+    "ayah": 15,
+    "order": 155,
+    "endAyah": 17
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "فاطر",
+    "ayah": 27,
+    "order": 156,
+    "endAyah": 28
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "فاطر",
+    "ayah": 29,
+    "order": 157
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "فاطر",
+    "ayah": 34,
+    "order": 158,
+    "endAyah": 35
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "يس",
+    "ayah": 82,
+    "order": 159,
+    "endAyah": 83
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الصافات",
+    "ayah": 180,
+    "order": 160,
+    "endAyah": 182
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "ص",
+    "ayah": 29,
+    "order": 161
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الزمر",
+    "ayah": 10,
+    "order": 162
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الزمر",
+    "ayah": 46,
+    "order": 163
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الزمر",
+    "ayah": 53,
+    "order": 164
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الزمر",
+    "ayah": 69,
+    "order": 165
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الزمر",
+    "ayah": 73,
+    "order": 166,
+    "endAyah": 74
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الزمر",
+    "ayah": 75,
+    "order": 167
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "غافر",
+    "ayah": 7,
+    "order": 168,
+    "endAyah": 8
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "غافر",
+    "ayah": 14,
+    "order": 169,
+    "endAyah": 15
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "غافر",
+    "ayah": 19,
+    "order": 170
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "غافر",
+    "ayah": 40,
+    "order": 171
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "غافر",
+    "ayah": 55,
+    "order": 172
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "غافر",
+    "ayah": 82,
+    "order": 173
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "فصلت",
+    "ayah": 30,
+    "order": 174
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "فصلت",
+    "ayah": 34,
+    "order": 175,
+    "endAyah": 35
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "فصلت",
+    "ayah": 36,
+    "order": 176
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "فصلت",
+    "ayah": 39,
+    "order": 177
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "فصلت",
+    "ayah": 44,
+    "order": 178
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "فصلت",
+    "ayah": 53,
+    "order": 179
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الشورى",
+    "ayah": 13,
+    "order": 180
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الشورى",
+    "ayah": 20,
+    "order": 181
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الشورى",
+    "ayah": 25,
+    "order": 182
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الشورى",
+    "ayah": 52,
+    "order": 183,
+    "endAyah": 53
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الزخرف",
+    "ayah": 32,
+    "order": 184
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الزخرف",
+    "ayah": 68,
+    "order": 185,
+    "endAyah": 70
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الدخان",
+    "ayah": 51,
+    "order": 186,
+    "endAyah": 52
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الجاثية",
+    "ayah": 20,
+    "order": 187
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الجاثية",
+    "ayah": 23,
+    "order": 188
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الجاثية",
+    "ayah": 36,
+    "order": 189,
+    "endAyah": 37
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأحقاف",
+    "ayah": 3,
+    "order": 190
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأحقاف",
+    "ayah": 12,
+    "order": 191
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأحقاف",
+    "ayah": 13,
+    "order": 192,
+    "endAyah": 14
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الأحقاف",
+    "ayah": 15,
+    "order": 193
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "محمد",
+    "ayah": 2,
+    "order": 194
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "محمد",
+    "ayah": 7,
+    "order": 195
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "محمد",
+    "ayah": 38,
+    "order": 196
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الفتح",
+    "ayah": 1,
+    "order": 197,
+    "endAyah": 3
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الفتح",
+    "ayah": 29,
+    "order": 198
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحجرات",
+    "ayah": 6,
+    "order": 199
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحجرات",
+    "ayah": 10,
+    "order": 200
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحجرات",
+    "ayah": 11,
+    "order": 201
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحجرات",
+    "ayah": 12,
+    "order": 202
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحجرات",
+    "ayah": 13,
+    "order": 203
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "ق",
+    "ayah": 16,
+    "order": 204,
+    "endAyah": 18
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "ق",
+    "ayah": 31,
+    "order": 205,
+    "endAyah": 34
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "ق",
+    "ayah": 39,
+    "order": 206,
+    "endAyah": 40
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الذاريات",
+    "ayah": 50,
+    "order": 207
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الذاريات",
+    "ayah": 58,
+    "order": 208
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الطور",
+    "ayah": 48,
+    "order": 209,
+    "endAyah": 49
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "النجم",
+    "ayah": 32,
+    "order": 210
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "القمر",
+    "ayah": 13,
+    "order": 211,
+    "endAyah": 17
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الرحمن",
+    "ayah": 7,
+    "order": 212,
+    "endAyah": 9
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الرحمن",
+    "ayah": 46,
+    "order": 213,
+    "endAyah": 48
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الواقعة",
+    "ayah": 75,
+    "order": 214,
+    "endAyah": 80
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحديد",
+    "ayah": 7,
+    "order": 215
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحديد",
+    "ayah": 11,
+    "order": 216
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحديد",
+    "ayah": 12,
+    "order": 217
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحديد",
+    "ayah": 18,
+    "order": 218
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحديد",
+    "ayah": 20,
+    "order": 219
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحديد",
+    "ayah": 21,
+    "order": 220
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحديد",
+    "ayah": 22,
+    "order": 221,
+    "endAyah": 23
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحديد",
+    "ayah": 28,
+    "order": 222
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "المجادلة",
+    "ayah": 7,
+    "order": 223
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحشر",
+    "ayah": 18,
+    "order": 224,
+    "endAyah": 19
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحشر",
+    "ayah": 20,
+    "order": 225
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحشر",
+    "ayah": 21,
+    "order": 226
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحشر",
+    "ayah": 22,
+    "order": 227,
+    "endAyah": 23
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحشر",
+    "ayah": 24,
+    "order": 228
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الممتحنة",
+    "ayah": 5,
+    "order": 229
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الصف",
+    "ayah": 8,
+    "order": 230,
+    "endAyah": 9
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الجمعة",
+    "ayah": 2,
+    "order": 231,
+    "endAyah": 3
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الجمعة",
+    "ayah": 9,
+    "order": 232,
+    "endAyah": 10
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "المنافقون",
+    "ayah": 9,
+    "order": 233
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "المنافقون",
+    "ayah": 10,
+    "order": 234,
+    "endAyah": 11
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "التغابن",
+    "ayah": 3,
+    "order": 235,
+    "endAyah": 4
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "التغابن",
+    "ayah": 9,
+    "order": 236
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "التغابن",
+    "ayah": 16,
+    "order": 237
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "التغابن",
+    "ayah": 17,
+    "order": 238
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الطلاق",
+    "ayah": 12,
+    "order": 239
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "التحريم",
+    "ayah": 6,
+    "order": 240
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "التحريم",
+    "ayah": 8,
+    "order": 241
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "التحريم",
+    "ayah": 10,
+    "order": 242
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "التحريم",
+    "ayah": 11,
+    "order": 243
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الملك",
+    "ayah": 1,
+    "order": 244,
+    "endAyah": 2
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الملك",
+    "ayah": 12,
+    "order": 245,
+    "endAyah": 14
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الملك",
+    "ayah": 28,
+    "order": 246,
+    "endAyah": 29
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "القلم",
+    "ayah": 2,
+    "order": 247,
+    "endAyah": 4
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "القلم",
+    "ayah": 44,
+    "order": 248,
+    "endAyah": 45
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحاقة",
+    "ayah": 19,
+    "order": 249,
+    "endAyah": 24
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "الحاقة",
+    "ayah": 48,
+    "order": 250,
+    "endAyah": 52
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "المعارج",
+    "ayah": 19,
+    "order": 251,
+    "endAyah": 22
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "نوح",
+    "ayah": 10,
+    "order": 252,
+    "endAyah": 12
+  },
+  {
+    "enabled": true,
+    "title": "آية اليوم",
+    "surah": "نوح",
+    "ayah": 28,
+    "order": 253
+  }
+]
